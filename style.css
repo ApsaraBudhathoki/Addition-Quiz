@@ -1,0 +1,100 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-color: rgb(48, 46, 46);
+    font-family: Ubuntu;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.container h1{
+    text-transform: uppercase;
+    padding-bottom:0.5rem;
+    font-size: 2rem;
+    color: #ffff;
+    /* text-shadow: 0.5rem 0.15rem 1rem rgb(204, 199, 199); */
+
+}
+.section1{
+    background-color: rgb(177, 139, 68);
+    width:35vw;
+    height:37vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* number display Area */
+.insertbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin: 1.05rem;
+    }
+
+#x, #y {
+    text-align: center;
+   
+    padding:1.2rem;
+    width: 6vw;
+    font-size: 1rem;
+    box-shadow: 0.1rem 0.1rem 0rem #999,
+                0.1rem 0.1rem 0rem #999, 
+                0.1rem 0.1rem 0rem #999,
+                0.1rem 0.1rem 0rem #999, 
+                0.1rem 0.1rem 0rem #999,
+                0.1rem 0.1rem 0rem #999;
+                border: none;
+}
+
+.Box p {
+    font-size: 2rem;
+    margin: 0 0.3rem 0 0.5rem;
+    font-weight: 500;
+}
+/* ... Number display Area */
+
+/* answer Area */
+.section #Ans{
+    margin: 0.3rem 0;
+    padding: 0.1rem 0;
+    font-size: 1.5rem;
+    
+    text-align: center;
+    width: 11.02rem;
+    border: none;
+}
+
+/* ...Answer Area */
+
+/* Check Answer */
+
+.submit button{
+    padding: 1rem 1.1rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    margin: 1rem;
+    background-color: rgb(33, 104, 133);
+   font-weight:400 ;
+   width: 8rem;
+   border-radius: 4rem;
+
+}
+
+/* ...Check Answer */
