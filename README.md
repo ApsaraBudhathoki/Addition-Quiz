@@ -1,7 +1,7 @@
 # Addition-Quiz
 Basic addition quiz using  html css and javascript
 
-###Technologies
+### Technologies
 -HMTL
 -CSS
 -JAVASCRIPT
