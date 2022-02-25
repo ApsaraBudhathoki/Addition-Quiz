@@ -2,9 +2,9 @@
 Basic addition quiz using  html css and javascript
 
 ### Technologies
--HMTL
--CSS
--JAVASCRIPT
+- HMTL
+- CSS
+- JAVASCRIPT
 
 ### How it looks like and works
 
